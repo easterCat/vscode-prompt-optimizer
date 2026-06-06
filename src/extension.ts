@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Register command to send selected text from editor to sidebar
   const sendSelectionCmd = vscode.commands.registerCommand(
-    'easyPromptOptimizer.sendSelection',
+    'promptAlchemy.sendSelection',
     () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
