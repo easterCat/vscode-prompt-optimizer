@@ -1,0 +1,68 @@
+{
+  "name": "prompt-optimizer",
+  "displayName": "Prompt Optimizer",
+  "description": "A lightweight VSCode extension for optimizing AI prompts using configurable LLM providers.",
+  "version": "0.1.0",
+  "publisher": "prompt-optimizer",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "prompt-optimizer",
+          "title": "Prompt Optimizer",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "prompt-optimizer": [
+        {
+          "type": "webview",
+          "id": "promptOptimizer.sidebar",
+          "name": "Prompt Optimizer"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "promptOptimizer.sendSelection",
+        "title": "Send to Prompt Optimizer",
+        "icon": "media/icon.svg"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "promptOptimizer.sendSelection",
+          "group": "promptOptimizer@1",
+          "when": "editorHasSelection"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "build": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/vsce": "^2.22.0"
+  },
+  "dependencies": {}
+}
