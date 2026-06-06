@@ -1,5 +1,5 @@
 {
-  "name": "easy-prompt-optimizer",
+  "name": "prompt-optimizer-easy",
   "displayName": "Easy Prompt Optimizer",
   "description": "A lightweight VSCode extension for optimizing AI prompts using configurable LLM providers.",
   "version": "0.1.0",
@@ -22,14 +22,14 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "easy-prompt-optimizer",
+          "id": "prompt-optimizer-easy",
           "title": "Easy Prompt Optimizer",
           "icon": "media/icon.svg"
         }
       ]
     },
     "views": {
-      "easy-prompt-optimizer": [
+      "prompt-optimizer-easy": [
         {
           "type": "webview",
           "id": "easyPromptOptimizer.sidebar",
