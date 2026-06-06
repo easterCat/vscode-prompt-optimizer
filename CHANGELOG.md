@@ -2,6 +2,14 @@
 
 All notable changes to the "Prompt Alchemy" extension will be documented in this file.
 
+## [0.1.1] - 2026-06-06
+
+### Changed
+
+- Updated extension icon to a simplified SVG design.
+- Replaced main-app screenshot with a lighter, optimized image.
+- Refreshed project metadata and display name to **Prompt Alchemy**.
+
 ## [0.1.0] - 2026-06-06
 
 ### Added

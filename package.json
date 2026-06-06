@@ -1,5 +1,5 @@
 {
-  "name": "prompt-optimizer-easy",
+  "name": "prompt-alchemy",
   "displayName": "Prompt Alchemy",
   "description": "A lightweight VSCode extension for optimizing AI prompts using configurable LLM providers.",
   "version": "0.1.1",
@@ -22,24 +22,24 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "prompt-optimizer-easy",
+          "id": "prompt-alchemy",
           "title": "Prompt Alchemy",
           "icon": "media/icon.svg"
         }
       ]
     },
     "views": {
-      "prompt-optimizer-easy": [
+      "prompt-alchemy": [
         {
           "type": "webview",
-          "id": "easyPromptOptimizer.sidebar",
+          "id": "promptAlchemy.sidebar",
           "name": "Prompt Alchemy"
         }
       ]
     },
     "commands": [
       {
-        "command": "easyPromptOptimizer.sendSelection",
+        "command": "promptAlchemy.sendSelection",
         "title": "Send to Prompt Alchemy",
         "icon": "media/icon.svg"
       }
@@ -47,8 +47,8 @@
     "menus": {
       "editor/context": [
         {
-          "command": "easyPromptOptimizer.sendSelection",
-          "group": "easyPromptOptimizer@1",
+          "command": "promptAlchemy.sendSelection",
+          "group": "promptAlchemy@1",
           "when": "editorHasSelection"
         }
       ]
