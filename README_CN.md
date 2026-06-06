@@ -1,4 +1,4 @@
-# PromptAlchemy
+# Prompt Alchemy
 
 一个轻量级的 VS Code 扩展，支持通过多种可配置的 LLM 提供商优化 AI 提示词。
 
@@ -17,12 +17,12 @@
 
 1. 打开 VS Code
 2. 按 `Ctrl+Shift+X` 打开扩展面板
-3. 搜索 **PromptAlchemy**
+3. 搜索 **Prompt Alchemy**
 4. 点击 **安装**
 
 ### 配置
 
-1. 点击活动栏中的 **PromptAlchemy** 图标打开侧边栏
+1. 点击活动栏中的 **Prompt Alchemy** 图标打开侧边栏
 2. 展开 **模型配置** 区域
 3. 选择**提供商**（OpenAI、Gemini、DeepSeek 或自定义）
 4. 输入你的 **API Key**
@@ -32,13 +32,13 @@
 
 ### 使用方法
 
-1. 打开 PromptAlchemy 侧边栏
+1. 打开 Prompt Alchemy 侧边栏
 2. 在 **原始提示词** 文本区域中输入你的提示词
 3. 点击 **优化**
 4. 在 **优化后的提示词** 区域查看改进结果
 5. 点击 **复制** 将结果复制到剪贴板
 
-你也可以在编辑器中选中文本，右键选择 **Send to PromptAlchemy**，将文本自动填入输入框。
+你也可以在编辑器中选中文本，右键选择 **Send to Prompt Alchemy**，将文本自动填入输入框。
 
 ## 支持的提供商
 

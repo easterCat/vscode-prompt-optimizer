@@ -2,7 +2,7 @@
 
 ---
 
-# PromptAlchemy 插件 - 产品需求文档 (PRD)
+# Prompt Alchemy 插件 - 产品需求文档 (PRD)
 
 | 文档版本 | 日期 | 作者 | 说明 |
 | :--- | :--- | :--- | :--- |
@@ -74,7 +74,7 @@
 
 **界面与交互**：
 - 侧边栏中提供一个**多行文本输入框**（VSCode的`Webview`中的`<textarea>`）。
-- 支持从当前编辑器中选中的文本**一键填充**到输入框（在编辑器右键菜单增加“Send to PromptAlchemy”）。
+- 支持从当前编辑器中选中的文本**一键填充**到输入框（在编辑器右键菜单增加“Send to Prompt Alchemy”）。
 - 输入框支持基本的文本编辑（换行、复制粘贴）。
 
 ### 3.3 提示词优化与输出 (Optimization & Output)
@@ -104,7 +104,7 @@
 
 ## 5. 用户界面草图 (文字描述)
 
-**VSCode侧边栏 (PromptAlchemy View)**
+**VSCode侧边栏 (Prompt Alchemy View)**
 
 ```
 ┌─────────────────────────────┐
