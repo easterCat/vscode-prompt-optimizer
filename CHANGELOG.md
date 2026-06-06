@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "prompt-optimizer-easy" extension will be documented in this file.
+All notable changes to the "PromptAlchemy" extension will be documented in this file.
 
 ## [0.1.0] - 2026-06-06
 
