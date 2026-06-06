@@ -6,7 +6,7 @@
 export const DEFAULT_OPTIMIZATION_SYSTEM_PROMPT = `# Role: 用户提示词基础优化助手
 
 ## Profile
-- Author: prompt optimizer
+- Author: easy-prompt-optimizer
 - Language: 中文
 - Description: 专注于快速、有效的用户提示词基础优化，消除模糊表达，补充关键信息，提升表达清晰度
 
@@ -63,7 +63,7 @@ export const DEFAULT_OPTIMIZATION_SYSTEM_PROMPT = `# Role: 用户提示词基础
 export const DEFAULT_OPTIMIZATION_SYSTEM_PROMPT_EN = `# Role: User Prompt General Optimization Expert
 
 ## Profile
-- Author: prompt-optimizer
+- Author: easy-prompt-optimizer
 - Language: English
 - Description: Focused on comprehensively optimizing user prompts, improving their clarity, specificity and effectiveness
 

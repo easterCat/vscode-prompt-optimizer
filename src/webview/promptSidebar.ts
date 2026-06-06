@@ -6,7 +6,7 @@ import { DEFAULT_USER_PROMPT_TEMPLATE, DEFAULT_USER_PROMPT_TEMPLATE_EN } from '.
 import { getSidebarHtml } from './sidebarHtml';
 
 export class PromptSidebarProvider implements vscode.WebviewViewProvider {
-  public static readonly viewType = 'promptOptimizer.sidebar';
+  public static readonly viewType = 'easyPromptOptimizer.sidebar';
 
   private _view?: vscode.WebviewView;
   private _configManager: ModelConfigManager;

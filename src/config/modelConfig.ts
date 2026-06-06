@@ -25,8 +25,8 @@ const DEFAULT_BASE_URLS: Record<ModelProvider, string> = {
   custom: '',
 };
 
-const STORAGE_KEY_API = 'promptOptimizer.apiKey';
-const STATE_KEY_CONFIG = 'promptOptimizer.modelConfig';
+const STORAGE_KEY_API = 'easyPromptOptimizer.apiKey';
+const STATE_KEY_CONFIG = 'easyPromptOptimizer.modelConfig';
 
 export class ModelConfigManager {
   private static readonly SECRET_KEY = STORAGE_KEY_API;

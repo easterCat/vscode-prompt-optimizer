@@ -5,5 +5,9 @@ node_modules/**
 tsconfig.json
 **/*.ts
 **/*.map
+**/*.d.ts
 .gitignore
+.gitattributes
 docs/**
+**/tsconfig.json
+vsc-extension-quickstart.md

@@ -1,9 +1,15 @@
 {
-  "name": "prompt-optimizer",
-  "displayName": "Prompt Optimizer",
+  "name": "easy-prompt-optimizer",
+  "displayName": "Easy Prompt Optimizer",
   "description": "A lightweight VSCode extension for optimizing AI prompts using configurable LLM providers.",
   "version": "0.1.0",
-  "publisher": "prompt-optimizer",
+  "publisher": "easy-tools",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easterCat/vscode-prompt-optimizer.git"
+  },
+  "icon": "media/main-app.png",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -16,33 +22,33 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "prompt-optimizer",
-          "title": "Prompt Optimizer",
+          "id": "easy-prompt-optimizer",
+          "title": "Easy Prompt Optimizer",
           "icon": "media/icon.svg"
         }
       ]
     },
     "views": {
-      "prompt-optimizer": [
+      "easy-prompt-optimizer": [
         {
           "type": "webview",
-          "id": "promptOptimizer.sidebar",
-          "name": "Prompt Optimizer"
+          "id": "easyPromptOptimizer.sidebar",
+          "name": "Easy Prompt Optimizer"
         }
       ]
     },
     "commands": [
       {
-        "command": "promptOptimizer.sendSelection",
-        "title": "Send to Prompt Optimizer",
+        "command": "easyPromptOptimizer.sendSelection",
+        "title": "Send to Easy Prompt Optimizer",
         "icon": "media/icon.svg"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "promptOptimizer.sendSelection",
-          "group": "promptOptimizer@1",
+          "command": "easyPromptOptimizer.sendSelection",
+          "group": "easyPromptOptimizer@1",
           "when": "editorHasSelection"
         }
       ]
