@@ -1,6 +1,6 @@
 {
   "name": "prompt-optimizer-easy",
-  "displayName": "PromptForge",
+  "displayName": "PromptAlchemy",
   "description": "A lightweight VSCode extension for optimizing AI prompts using configurable LLM providers.",
   "version": "0.1.0",
   "publisher": "easy-tools",
@@ -23,7 +23,7 @@
       "activitybar": [
         {
           "id": "prompt-optimizer-easy",
-          "title": "PromptForge",
+          "title": "PromptAlchemy",
           "icon": "media/icon.svg"
         }
       ]
@@ -33,14 +33,14 @@
         {
           "type": "webview",
           "id": "easyPromptOptimizer.sidebar",
-          "name": "PromptForge"
+          "name": "PromptAlchemy"
         }
       ]
     },
     "commands": [
       {
         "command": "easyPromptOptimizer.sendSelection",
-        "title": "Send to PromptForge",
+        "title": "Send to PromptAlchemy",
         "icon": "media/icon.svg"
       }
     ],

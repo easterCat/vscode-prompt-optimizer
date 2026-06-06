@@ -1,4 +1,4 @@
-# PromptForge
+# PromptAlchemy
 
 A lightweight VS Code extension for optimizing AI prompts using configurable LLM providers.
 
@@ -17,12 +17,12 @@ A lightweight VS Code extension for optimizing AI prompts using configurable LLM
 
 1. Open VS Code
 2. Press `Ctrl+Shift+X` to open the Extensions panel
-3. Search for **PromptForge**
+3. Search for **PromptAlchemy**
 4. Click **Install**
 
 ### Configuration
 
-1. Click the **PromptForge** icon in the Activity Bar to open the sidebar
+1. Click the **PromptAlchemy** icon in the Activity Bar to open the sidebar
 2. Expand the **Model Configuration** section
 3. Select your **Provider** (OpenAI, Gemini, DeepSeek, or Custom)
 4. Enter your **API Key**
@@ -32,13 +32,13 @@ A lightweight VS Code extension for optimizing AI prompts using configurable LLM
 
 ### Usage
 
-1. Open the PromptForge sidebar
+1. Open the PromptAlchemy sidebar
 2. Enter your prompt in the **Original Prompt** text area
 3. Click **Optimize**
 4. View the improved prompt in the **Optimized Prompt** section
 5. Click **Copy** to copy the result to your clipboard
 
-You can also select text in the editor, right-click, and choose **Send to PromptForge** to fill the input automatically.
+You can also select text in the editor, right-click, and choose **Send to PromptAlchemy** to fill the input automatically.
 
 ## Supported Providers
 
