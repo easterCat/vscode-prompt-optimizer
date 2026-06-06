@@ -11,3 +11,7 @@ tsconfig.json
 docs/**
 **/tsconfig.json
 vsc-extension-quickstart.md
+.claude/**
+.playwright-mcp/**
+*.log
+*.vsix
