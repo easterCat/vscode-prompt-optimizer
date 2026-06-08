@@ -6,7 +6,46 @@
 .vscode-test/**
 
 # Dependencies
+# Dependencies
 node_modules/
+
+# Build output
+dist/
+
+# VS Code extension packages
+*.vsix
+
+# Lock files (use bun.lockb)
+package-lock.json
+yarn.lock
+
+# IDE / Editor
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Misc
+*.tgz
+.cache/
 
 # Build output
 dist/

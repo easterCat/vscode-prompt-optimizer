@@ -218,14 +218,6 @@ export function getSidebarHtml(
       font-size: 11px;
       font-weight: 500;
     }
-    .status-configured {
-      background: rgba(78, 201, 176, 0.15);
-      color: var(--success-fg);
-    }
-    .status-unconfigured {
-      background: rgba(244, 71, 71, 0.15);
-      color: var(--error-fg);
-    }
 
     /* Input/Output areas */
     .prompt-input {
@@ -786,12 +778,12 @@ export function getSidebarHtml(
 
     // --- Event Listeners (using addEventListener instead of inline handlers for CSP compliance) ---
     document.addEventListener('DOMContentLoaded', () => {
-      // Section toggle - only on toggle button click
-      document.querySelectorAll('.toggle').forEach((toggle, index) => {
-        toggle.addEventListener('click', (e) => {
+      // Section toggle - click anywhere on section header
+      document.querySelectorAll('.section-header').forEach((header) => {
+        const sectionId = header.id.replace('-toggle', '');
+        header.addEventListener('click', (e) => {
           e.stopPropagation();
-          const sectionIds = ['input', 'output', 'config'];
-          toggleSection(sectionIds[index]);
+          toggleSection(sectionId);
         });
       });
 
