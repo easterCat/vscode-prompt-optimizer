@@ -2,6 +2,13 @@
 
 All notable changes to the "Prompt Alchemy" extension will be documented in this file.
 
+## [0.1.3] - 2026-06-10
+
+### Added
+
+- **Optimize from Clipboard**: Press `Ctrl+Alt+M` (`Cmd+Alt+M` on Mac) to optimize the clipboard content and copy the result back — works anywhere, including Webview panels.
+- Added command palette entry **Optimize from Clipboard** (always available).
+
 ## [0.1.2] - 2026-06-07
 
 ### Added

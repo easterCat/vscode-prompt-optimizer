@@ -8,6 +8,7 @@ A lightweight VS Code extension for optimizing AI prompts using configurable LLM
 
 - **Model Configuration** — Support for OpenAI, Gemini, DeepSeek, and custom providers with secure API key storage.
 - **One-Click Optimization** — Paste or type your prompt, click "Optimize", and get an improved version instantly.
+- **Optimize from Clipboard** — Copy text anywhere (editor, Webview, external app), press `Ctrl+Alt+M` (`Cmd+Alt+M` on Mac), and paste the optimized result.
 - **Editor Integration** — Right-click selected text in the editor to send it directly to the optimizer sidebar.
 - **One-Click Copy** — Copy the optimized prompt to your clipboard with a single click.
 
@@ -32,6 +33,8 @@ A lightweight VS Code extension for optimizing AI prompts using configurable LLM
 
 ### Usage
 
+#### Sidebar Workflow
+
 1. Open the Prompt Alchemy sidebar
 2. Enter your prompt in the **Original Prompt** text area
 3. Click **Optimize**
@@ -39,6 +42,13 @@ A lightweight VS Code extension for optimizing AI prompts using configurable LLM
 5. Click **Copy** to copy the result to your clipboard
 
 You can also select text in the editor, right-click, and choose **Send to Prompt Alchemy** to fill the input automatically.
+
+#### Clipboard Optimization (Works Everywhere)
+
+1. Copy text anywhere — editor, Webview panel, external app (`Ctrl+C`)
+2. Press `Ctrl+Alt+M` (`Cmd+Alt+M` on Mac)
+3. Optimized text is copied to your clipboard
+4. Paste it back with `Ctrl+V`
 
 ## Supported Providers
 
