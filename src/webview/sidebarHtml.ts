@@ -88,8 +88,9 @@ export function getSidebarHtml(
       font-size: 10px;
       transition: transform 0.15s ease;
       cursor: pointer;
-      padding: 2px 4px;
+      padding: 4px 6px;
       border-radius: 3px;
+      user-select: none;
     }
 
     .section-header .toggle:hover {
@@ -778,10 +779,11 @@ export function getSidebarHtml(
 
     // --- Event Listeners (using addEventListener instead of inline handlers for CSP compliance) ---
     document.addEventListener('DOMContentLoaded', () => {
-      // Section toggle - click anywhere on section header
-      document.querySelectorAll('.section-header').forEach((header) => {
+      // Section toggle - only clicking the arrow icon triggers collapse/expand
+      document.querySelectorAll('.section-header .toggle').forEach((toggle) => {
+        const header = toggle.closest('.section-header');
         const sectionId = header.id.replace('-toggle', '');
-        header.addEventListener('click', (e) => {
+        toggle.addEventListener('click', (e) => {
           e.stopPropagation();
           toggleSection(sectionId);
         });

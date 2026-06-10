@@ -34,6 +34,7 @@ extension.ts                     — Entry point, registers sidebar provider + s
 
 - **Webview communication**: All messages use `postMessage`/`onDidReceiveMessage` with typed `type` discriminators (e.g., `optimize`, `saveConfig`, `loadConfig`, `testConnection`).
 - **Monolithic webview HTML**: [sidebarHtml.ts](src/webview/sidebarHtml.ts) is a single inline string containing all HTML, CSS (using VS Code CSS variables), and JavaScript. This avoids CSP issues. When modifying the UI, this is the file to edit.
+- **Section header expand/collapse**: The three collapsible sections (Original, Optimized, Model Configuration) use `.toggle` arrow icons (▼) as the **sole** click targets for expand/collapse. Clicking the header title or other areas does NOT trigger the toggle — this is intentional UX design.
 - **Dual-language support**: System prompts and user templates have both Chinese and English variants in separate constants. UI labels stay English.
 - **Gemini dual-auth**: The Gemini provider sends the API key both as `x-goog-api-key` header AND `?key=` query parameter for compatibility.
 - **No bundler**: Pure `tsc` compilation. `dist/` mirrors `src/` structure exactly.

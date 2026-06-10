@@ -2,7 +2,7 @@
   "name": "prompt-alchemy",
   "displayName": "Prompt Alchemy",
   "description": "A lightweight VSCode extension for optimizing AI prompts using configurable LLM providers.",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "publisher": "easy-tools",
   "license": "MIT",
   "repository": {

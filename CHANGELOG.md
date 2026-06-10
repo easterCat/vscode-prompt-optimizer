@@ -2,6 +2,15 @@
 
 All notable changes to the "Prompt Alchemy" extension will be documented in this file.
 
+## [1.0.0] - 2026-06-10
+
+### Changed
+
+- **Stable Release**: First major version release.
+- Improved section header toggle UX — only arrow icons (▼) trigger expand/collapse, not the entire header area.
+- Increased toggle button padding for better click target size.
+- Added `user-select: none` to prevent accidental text selection on toggle buttons.
+
 ## [0.1.4] - 2026-06-10
 
 ### Changed
