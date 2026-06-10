@@ -2,6 +2,14 @@
 
 All notable changes to the "Prompt Alchemy" extension will be documented in this file.
 
+## [0.1.4] - 2026-06-10
+
+### Changed
+
+- Added project-level release skill for version publishing workflow.
+- Updated README_CN with clipboard optimization feature.
+- Updated icon asset.
+
 ## [0.1.3] - 2026-06-10
 
 ### Added
